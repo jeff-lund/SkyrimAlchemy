@@ -1,0 +1,373 @@
+Name,Code,Effect,Weight,Price
+Charred Skeever Hide ,00052695 ,Cure Disease ,0.5,1
+Hawk Feathers ,000e7ed0 ,Cure Disease ,0.1,15
+Mudcrab Chitin ,0006bc00 ,Cure Disease ,0.25,2
+Vampire Dust ,0003ad76 ,Cure Disease ,0.2,25
+Crimson Nirnroot ,000b701a ,Damage Health ,0.2,10
+Deathbell ,000516c8 ,Damage Health ,0.1,4
+Ectoplasm ,0003ad63 ,Damage Health ,0.1,25
+Falmer Ear ,0003ad5d ,Damage Health ,0.2,10
+Human Flesh ,001016b3 ,Damage Health ,0.25,1
+Human Heart ,000b18cd ,Damage Health ,1,0
+Imp Stool ,0004da23 ,Damage Health ,0.3,0
+Jarrin Root ,0001bcbc ,Damage Health ,0.5,10
+Nightshade ,0002f44c ,Damage Health ,0.1,8
+Nirnroot ,00059b86 ,Damage Health ,0.2,10
+Red Mountain Flower ,00077e1d ,Damage Health ,0.1,2
+River Betty ,00106e1a ,Damage Health ,0.25,15
+Skeever Tail ,0003ad6f ,Damage Health ,0.2,3
+Small Antlers ,0006bc0b ,Damage Health ,0.1,2
+Troll Fat ,0003ad72 ,Damage Health ,1,15
+Void Salts ,0003ad60 ,Damage Health ,0.2,125
+Butterfly Wing ,000727e0 ,Damage Magicka ,0.1,3
+Chaurus Eggs ,0003ad56 ,Damage Magicka ,0.2,10
+Daedra Heart ,0003ad5b ,Damage Magicka ,0.5,250
+Eye of Sabre Cat ,0006bc07 ,Damage Magicka ,0.1,2
+Glow Dust ,0003ad73 ,Damage Magicka ,0.5,20
+Hagraven Feathers ,0003ad66 ,Damage Magicka ,0.1,20
+Hanging Moss ,00057f91 ,Damage Magicka ,0.25,1
+Human Heart ,000b18cd ,Damage Magicka ,1,0
+Jarrin Root ,0001bcbc ,Damage Magicka ,0.5,10
+Luna Moth Wing ,000727df ,Damage Magicka ,0.1,5
+Namira's Rot ,0004da24 ,Damage Magicka ,0.25,0
+Nordic Barnacle ,0007edf5 ,Damage Magicka ,0.2,5
+Bear Claws ,0006bc02 ,Damage Magicka Regen ,0.1,2
+Blue Butterfly Wing ,000727de ,Damage Magicka Regen ,0.1,2
+Blue Mountain Flower ,00077e1c ,Damage Magicka Regen ,0.1,2
+Chicken's Egg ,00023d77 ,Damage Magicka Regen ,0.5,2
+Glow Dust ,0003ad73 ,Damage Magicka Regen ,0.5,20
+Hanging Moss ,00057f91 ,Damage Magicka Regen ,0.25,1
+Human Heart ,000b18cd ,Damage Magicka Regen ,1,0
+Jarrin Root ,0001bcbc ,Damage Magicka Regen ,0.5,10
+Nightshade ,0002f44c ,Damage Magicka Regen ,0.1,8
+Spider Egg ,0009151b ,Damage Magicka Regen ,0.2,5
+Spriggan Sap ,00063b5f ,Damage Magicka Regen ,0.2,15
+Berit's Ashes ,000705b7 ,Damage Stamina ,0.2,5
+Blisterwort ,0004da25 ,Damage Stamina ,0.2,12
+Blue Butterfly Wing ,000727de ,Damage Stamina ,0.1,2
+Bone Meal ,00034cdd ,Damage Stamina ,0.5,5
+Canis Root ,0006abcb ,Damage Stamina ,0.1,5
+Crimson Nirnroot ,000b701a ,Damage Stamina ,0.2,10
+Cyrodilic Spadetail ,00106e19 ,Damage Stamina ,0.25,15
+Giant's Toe ,0003ad64 ,Damage Stamina ,1,20
+Jarrin Root ,0001bcbc ,Damage Stamina ,0.5,10
+Nirnroot ,00059b86 ,Damage Stamina ,0.2,10
+Rock Warbler Egg ,0007e8c8 ,Damage Stamina ,0.5,2
+Spider Egg ,0009151b ,Damage Stamina ,0.2,5
+Creep Cluster ,000b2183 ,Damage Stamina Regen ,0.2,1
+Daedra Heart ,0003ad5b ,Damage Stamina Regen ,0.5,250
+Frost Mirriam ,00034d32 ,Damage Stamina Regen ,0.1,1
+Giant's Toe ,0003ad64 ,Damage Stamina Regen ,1,20
+Histcarp ,00106e18 ,Damage Stamina Regen ,0.25,6
+Juniper Berries ,0005076e ,Damage Stamina Regen ,0.1,1
+Large Antlers ,0006bc0a ,Damage Stamina Regen ,0.1,2
+Silverside Perch ,00106e1c ,Damage Stamina Regen ,0.25,15
+Skeever Tail ,0003ad6f ,Damage Stamina Regen ,0.2,3
+Wheat ,0004b0ba ,Damage Stamina Regen ,0.1,5
+Blue Dartwing ,000e4f0c ,Fear ,0.1,1
+Cyrodilic Spadetail ,00106e19 ,Fear ,0.25,15
+Daedra Heart ,0003ad5b ,Fear ,0.5,250
+Namira's Rot ,0004da24 ,Fear ,0.25,0
+Powdered Mammoth Tusk ,0006bc10 ,Fear ,0.1,2
+Grass Pod ,00083e64 ,Fortify Alteration ,0.1,1
+River Betty ,00106e1a ,Fortify Alteration ,0.25,15
+Spriggan Sap ,00063b5f ,Fortify Alteration ,0.2,15
+Butterfly Wing ,000727e0 ,Fortify Barter ,0.1,3
+Dragon's Tongue ,000889a2 ,Fortify Barter ,0.1,5
+Hagraven Claw ,0006b689 ,Fortify Barter ,0.25,20
+Tundra Cotton ,0003f7f8 ,Fortify Barter ,0.1,1
+Bleeding Crown ,0004da20 ,Fortify Block ,0.3,10
+Briar Heart ,0003ad61 ,Fortify Block ,0.5,20
+Honeycomb ,000b08c5 ,Fortify Block ,1,5
+Pearl ,000854fe ,Fortify Block ,0.1,2
+Slaughterfish Scales ,0003ad70 ,Fortify Block ,0.1,3
+Tundra Cotton ,0003f7f8 ,Fortify Block ,0.1,1
+Creep Cluster ,000b2183 ,Fortify Carry Weight ,0.2,1
+Giant's Toe ,0003ad64 ,Fortify Carry Weight ,1,20
+Hawk Beak ,000e7ebc ,Fortify Carry Weight ,0.25,15
+River Betty ,00106e1a ,Fortify Carry Weight ,0.25,15
+Scaly Pholiota ,0006f950 ,Fortify Carry Weight ,0.25,4
+Wisp Wrappings ,0006bc0e ,Fortify Carry Weight ,0.1,2
+Berit's Ashes ,000705b7 ,Fortify Conjuration ,0.2,5
+Blue Butterfly Wing ,000727de ,Fortify Conjuration ,0.1,2
+Blue Mountain Flower ,00077e1c ,Fortify Conjuration ,0.1,2
+Bone Meal ,00034cdd ,Fortify Conjuration ,0.5,5
+Frost Salts ,0003ad5f ,Fortify Conjuration ,0.25,100
+Hagraven Feathers ,0003ad66 ,Fortify Conjuration ,0.1,20
+Lavender ,00045c28 ,Fortify Conjuration ,0.1,1
+Beehive Husk ,000a9191 ,Fortify Destruction ,1,5
+Ectoplasm ,0003ad63 ,Fortify Destruction ,0.1,25
+Glow Dust ,0003ad73 ,Fortify Destruction ,0.5,20
+Glowing Mushroom ,0007ee01 ,Fortify Destruction ,0.2,5
+Nightshade ,0002f44c ,Fortify Destruction ,0.1,8
+Wisp Wrappings ,0006bc0e ,Fortify Destruction ,0.1,2
+Blue Butterfly Wing ,000727de ,Fortify Enchanting ,0.1,2
+Hagraven Claw ,0006b689 ,Fortify Enchanting ,0.25,20
+Snowberries ,0001b3bd ,Fortify Enchanting ,0.1,4
+Spriggan Sap ,00063b5f ,Fortify Enchanting ,0.2,15
+Bear Claws ,0006bc02 ,Fortify Health ,0.1,2
+Blue Mountain Flower ,00077e1c ,Fortify Health ,0.1,2
+Giant's Toe ,0003ad64 ,Fortify Health ,1,20
+Glowing Mushroom ,0007ee01 ,Fortify Health ,0.2,5
+Hanging Moss ,00057f91 ,Fortify Health ,0.25,1
+Wheat ,0004b0ba ,Fortify Health ,0.1,5
+Ice Wraith Teeth ,0003ad6a ,Fortify Heavy Armor ,0.25,30
+Sabre Cat Tooth ,0006bc04 ,Fortify Heavy Armor ,0.1,2
+Slaughterfish Scales ,0003ad70 ,Fortify Heavy Armor ,0.1,3
+Thistle Branch ,000134aa ,Fortify Heavy Armor ,0.1,1
+White Cap ,0004da22 ,Fortify Heavy Armor ,0.3,0
+Dragon's Tongue ,000889a2 ,Fortify Illusion ,0.1,5
+Dwarven Oil ,000f11c0 ,Fortify Illusion ,0.25,15
+Mora Tapinella ,000ec870 ,Fortify Illusion ,0.25,4
+Scaly Pholiota ,0006f950 ,Fortify Illusion ,0.25,4
+Taproot ,0003ad71 ,Fortify Illusion ,0.5,15
+Beehive Husk ,000a9191 ,Fortify Light Armor ,1,5
+Hawk Feathers ,000e7ed0 ,Fortify Light Armor ,0.1,15
+Honeycomb ,000b08c5 ,Fortify Light Armor ,1,5
+Luna Moth Wing ,000727df ,Fortify Light Armor ,0.1,5
+Skeever Tail ,0003ad6f ,Fortify Light Armor ,0.2,3
+Falmer Ear ,0003ad5d ,Fortify Lockpicking ,0.2,10
+Namira's Rot ,0004da24 ,Fortify Lockpicking ,0.25,0
+Pine Thrush Egg ,00023d6f ,Fortify Lockpicking ,0.5,2
+Spider Egg ,0009151b ,Fortify Lockpicking ,0.2,5
+Briar Heart ,0003ad61 ,Fortify Magicka ,0.5,20
+Ectoplasm ,0003ad63 ,Fortify Magicka ,0.1,25
+Histcarp ,00106e18 ,Fortify Magicka ,0.25,6
+Jazbay Grapes ,0006ac4a ,Fortify Magicka ,0.2,1
+Red Mountain Flower ,00077e1d ,Fortify Magicka ,0.1,2
+Tundra Cotton ,0003f7f8 ,Fortify Magicka ,0.1,1
+Void Salts ,0003ad60 ,Fortify Magicka ,0.2,125
+Canis Root ,0006abcb ,Fortify Marksman ,0.1,5
+Elves Ear ,00034d31 ,Fortify Marksman ,0.1,10
+Juniper Berries ,0005076e ,Fortify Marksman ,0.1,1
+Spider Egg ,0009151b ,Fortify Marksman ,0.2,5
+Bear Claws ,0006bc02 ,Fortify One-handed ,0.1,2
+Canis Root ,0006abcb ,Fortify One-handed ,0.1,5
+Hanging Moss ,00057f91 ,Fortify One-handed ,0.25,1
+Hawk Feathers ,000e7ed0 ,Fortify One-handed ,0.1,15
+Rock Warbler Egg ,0007e8c8 ,Fortify One-handed ,0.5,2
+Small Pearl ,00085500 ,Fortify One-handed ,0.1,2
+Blue Dartwing ,000e4f0c ,Fortify Pickpocket ,0.1,1
+Nordic Barnacle ,0007edf5 ,Fortify Pickpocket ,0.2,5
+Orange Dartwing ,000bb956 ,Fortify Pickpocket ,0.1,1
+Slaughterfish Egg ,0007e8c5 ,Fortify Pickpocket ,0.2,3
+Abecean Longfin ,00106e1b ,Fortify Restoration ,0.5,15
+Cyrodilic Spadetail ,00106e19 ,Fortify Restoration ,0.25,15
+Salt Pile ,00074a19 ,Fortify Restoration ,0.2,1
+Small Antlers ,0006bc0b ,Fortify Restoration ,0.1,2
+Small Pearl ,00085500 ,Fortify Restoration ,0.1,2
+Blisterwort ,0004da25 ,Fortify Smithing ,0.2,12
+Glowing Mushroom ,0007ee01 ,Fortify Smithing ,0.2,5
+Sabre Cat Tooth ,0006bc04 ,Fortify Smithing ,0.1,2
+Spriggan Sap ,00063b5f ,Fortify Smithing ,0.2,15
+Abecean Longfin ,00106e1b ,Fortify Sneak ,0.5,15
+Beehive Husk ,000a9191 ,Fortify Sneak ,1,5
+Frost Mirriam ,00034d32 ,Fortify Sneak ,0.1,1
+Hawk Feathers ,000e7ed0 ,Fortify Sneak ,0.1,15
+Human Flesh ,001016b3 ,Fortify Sneak ,0.25,1
+Powdered Mammoth Tusk ,0006bc10 ,Fortify Sneak ,0.1,2
+Purple Mountain Flower ,00077e1e ,Fortify Sneak ,0.1,2
+Chaurus Eggs ,0003ad56 ,Fortify Stamina ,0.2,10
+Garlic ,00034d22 ,Fortify Stamina ,0.25,1
+Large Antlers ,0006bc0a ,Fortify Stamina ,0.1,2
+Lavender ,00045c28 ,Fortify Stamina ,0.1,1
+Slaughterfish Egg ,0007e8c5 ,Fortify Stamina ,0.2,3
+Torchbug Thorax ,0004da73 ,Fortify Stamina ,0.1,1
+Dragon's Tongue ,000889a2 ,Fortify Two-handed ,0.1,5
+Fly Amanita ,0004da00 ,Fortify Two-handed ,0.1,2
+Troll Fat ,0003ad72 ,Fortify Two-handed ,1,15
+Blisterwort ,0004da25 ,Frenzy ,0.2,12
+Falmer Ear ,0003ad5d ,Frenzy ,0.2,10
+Fly Amanita ,0004da00 ,Frenzy ,0.1,2
+Hagraven Feathers ,0003ad66 ,Frenzy ,0.1,20
+Human Heart ,000b18cd ,Frenzy ,1,0
+Troll Fat ,0003ad72 ,Frenzy ,1,15
+Chaurus Eggs ,0003ad56 ,Invisibility ,0.2,10
+Crimson Nirnroot ,000b701a ,Invisibility ,0.2,10
+Ice Wraith Teeth ,0003ad6a ,Invisibility ,0.25,30
+Luna Moth Wing ,000727df ,Invisibility ,0.1,5
+Nirnroot ,00059b86 ,Invisibility ,0.2,10
+Vampire Dust ,0003ad76 ,Invisibility ,0.2,25
+Imp Stool ,0004da23 ,Lingering Damage Health ,0.3,0
+Mora Tapinella ,000ec870 ,Lingering Damage Health ,0.25,4
+Orange Dartwing ,000bb956 ,Lingering Damage Health ,0.1,1
+Slaughterfish Egg ,0007e8c5 ,Lingering Damage Health ,0.2,3
+Slaughterfish Scales ,0003ad70 ,Lingering Damage Health ,0.1,3
+Hagraven Claw ,0006b689 ,Lingering Damage Magicka ,0.25,20
+Purple Mountain Flower ,00077e1e ,Lingering Damage Magicka ,0.1,2
+Swamp Fungal Pod ,0007e8b7 ,Lingering Damage Magicka ,0.25,5
+Torchbug Thorax ,0004da73 ,Lingering Damage Magicka ,0.1,1
+Wheat ,0004b0ba ,Lingering Damage Magicka ,0.1,5
+Butterfly Wing ,000727e0 ,Lingering Damage Stamina ,0.1,3
+Chicken's Egg ,00023d77 ,Lingering Damage Stamina ,0.5,2
+Nightshade ,0002f44c ,Lingering Damage Stamina ,0.1,8
+Small Antlers ,0006bc0b ,Lingering Damage Stamina ,0.1,2
+Briar Heart ,0003ad61 ,Paralysis ,0.5,20
+Canis Root ,0006abcb ,Paralysis ,0.1,5
+Human Flesh ,001016b3 ,Paralysis ,0.25,1
+Imp Stool ,0004da23 ,Paralysis ,0.3,0
+Swamp Fungal Pod ,0007e8b7 ,Paralysis ,0.25,5
+Cyrodilic Spadetail ,00106e19 ,Ravage Health ,0.25,15
+Eye of Sabre Cat ,0006bc07 ,Ravage Health ,0.1,2
+Giant Lichen ,0007e8c1 ,Ravage Health ,0.25,5
+Jazbay Grapes ,0006ac4a ,Ravage Health ,0.2,1
+Silverside Perch ,00106e1c ,Ravage Health ,0.25,15
+Skeever Tail ,0003ad6f ,Ravage Health ,0.2,3
+Frost Mirriam ,00034d32 ,Ravage Magicka ,0.1,1
+Grass Pod ,00083e64 ,Ravage Magicka ,0.1,1
+Lavender ,00045c28 ,Ravage Magicka ,0.1,1
+Orange Dartwing ,000bb956 ,Ravage Magicka ,0.1,1
+Red Mountain Flower ,00077e1d ,Ravage Magicka ,0.1,2
+White Cap ,0004da22 ,Ravage Magicka ,0.3,0
+Bee ,000a9195 ,Ravage Stamina ,0.1,3
+Berit's Ashes ,000705b7 ,Ravage Stamina ,0.2,5
+Bone Meal ,00034cdd ,Ravage Stamina ,0.5,5
+Deathbell ,000516c8 ,Ravage Stamina ,0.1,4
+Honeycomb ,000b08c5 ,Ravage Stamina ,1,5
+Thistle Branch ,000134aa ,Ravage Stamina ,0.1,1
+Garlic ,00034d22 ,Regenerate Health ,0.25,1
+Juniper Berries ,0005076e ,Regenerate Health ,0.1,1
+Luna Moth Wing ,000727df ,Regenerate Health ,0.1,5
+Namira's Rot ,0004da24 ,Regenerate Health ,0.25,0
+Nordic Barnacle ,0007edf5 ,Regenerate Health ,0.2,5
+Vampire Dust ,0003ad76 ,Regenerate Health ,0.2,25
+Dwarven Oil ,000f11c0 ,Regenerate Magicka ,0.25,15
+Fire Salts ,0003ad5e ,Regenerate Magicka ,0.25,50
+Garlic ,00034d22 ,Regenerate Magicka ,0.25,1
+Jazbay Grapes ,0006ac4a ,Regenerate Magicka ,0.2,1
+Moon Sugar ,000d8e3f ,Regenerate Magicka ,0.25,50
+Salt Pile ,00074a19 ,Regenerate Magicka ,0.2,1
+Taproot ,0003ad71 ,Regenerate Magicka ,0.5,15
+Bee ,000a9195 ,Regenerate Stamina ,0.1,3
+Fly Amanita ,0004da00 ,Regenerate Stamina ,0.1,2
+Mora Tapinella ,000ec870 ,Regenerate Stamina ,0.25,4
+Scaly Pholiota ,0006f950 ,Regenerate Stamina ,0.25,4
+Berit's Ashes ,000705b7 ,Resist Fire ,0.2,5
+Bone Meal ,00034cdd ,Resist Fire ,0.5,5
+Dragon's Tongue ,000889a2 ,Resist Fire ,0.1,5
+Elves Ear ,00034d31 ,Resist Fire ,0.1,10
+Fire Salts ,0003ad5e ,Resist Fire ,0.25,50
+Fly Amanita ,0004da00 ,Resist Fire ,0.1,2
+Mudcrab Chitin ,0006bc00 ,Resist Fire ,0.25,2
+Snowberries ,0001b3bd ,Resist Fire ,0.1,4
+Frost Mirriam ,00034d32 ,Resist Frost ,0.1,1
+Frost Salts ,0003ad5f ,Resist Frost ,0.25,100
+Hawk Beak ,000e7ebc ,Resist Frost ,0.25,15
+Moon Sugar ,000d8e3f ,Resist Frost ,0.25,50
+Purple Mountain Flower ,00077e1e ,Resist Frost ,0.1,2
+Silverside Perch ,00106e1c ,Resist Frost ,0.25,15
+Slaughterfish Scales ,0003ad70 ,Resist Frost ,0.1,3
+Small Pearl ,00085500 ,Resist Frost ,0.1,2
+Snowberries ,0001b3bd ,Resist Frost ,0.1,4
+Thistle Branch ,000134aa ,Resist Frost ,0.1,1
+Bleeding Crown ,0004da20 ,Resist Magic ,0.3,10
+Chicken's Egg ,00023d77 ,Resist Magic ,0.5,2
+Crimson Nirnroot ,000b701a ,Resist Magic ,0.2,10
+Hagraven Claw ,0006b689 ,Resist Magic ,0.25,20
+Lavender ,00045c28 ,Resist Magic ,0.1,1
+Nirnroot ,00059b86 ,Resist Magic ,0.2,10
+Tundra Cotton ,0003f7f8 ,Resist Magic ,0.1,1
+Void Salts ,0003ad60 ,Resist Magic ,0.2,125
+Wisp Wrappings ,0006bc0e ,Resist Magic ,0.1,2
+Beehive Husk ,000a9191 ,Resist Poison ,1,5
+Charred Skeever Hide ,00052695 ,Resist Poison ,0.5,1
+Falmer Ear ,0003ad5d ,Resist Poison ,0.2,10
+Garlic ,00034d22 ,Resist Poison ,0.25,1
+Grass Pod ,00083e64 ,Resist Poison ,0.1,1
+Mudcrab Chitin ,0006bc00 ,Resist Poison ,0.25,2
+Slaughterfish Egg ,0007e8c5 ,Resist Poison ,0.2,3
+Thistle Branch ,000134aa ,Resist Poison ,0.1,1
+Troll Fat ,0003ad72 ,Resist Poison ,1,15
+Blue Dartwing ,000e4f0c ,Resist Shock ,0.1,1
+Glow Dust ,0003ad73 ,Resist Shock ,0.5,20
+Glowing Mushroom ,0007ee01 ,Resist Shock ,0.2,5
+Hawk Beak ,000e7ebc ,Resist Shock ,0.25,15
+Pearl ,000854fe ,Resist Shock ,0.1,2
+Pine Thrush Egg ,00023d6f ,Resist Shock ,0.5,2
+Snowberries ,0001b3bd ,Resist Shock ,0.1,4
+Swamp Fungal Pod ,0007e8b7 ,Resist Shock ,0.25,5
+Blisterwort ,0004da25 ,Restore Health ,0.2,12
+Blue Dartwing ,000e4f0c ,Restore Health ,0.1,1
+Blue Mountain Flower ,00077e1c ,Restore Health ,0.1,2
+Butterfly Wing ,000727e0 ,Restore Health ,0.1,3
+Charred Skeever Hide ,00052695 ,Restore Health ,0.5,1
+Daedra Heart ,0003ad5b ,Restore Health ,0.5,250
+Eye of Sabre Cat ,0006bc07 ,Restore Health ,0.1,2
+Imp Stool ,0004da23 ,Restore Health ,0.3,0
+Rock Warbler Egg ,0007e8c8 ,Restore Health ,0.5,2
+Swamp Fungal Pod ,0007e8b7 ,Restore Health ,0.25,5
+Wheat ,0004b0ba ,Restore Health ,0.1,5
+Briar Heart ,0003ad61 ,Restore Magicka ,0.5,20
+Creep Cluster ,000b2183 ,Restore Magicka ,0.2,1
+Dwarven Oil ,000f11c0 ,Restore Magicka ,0.25,15
+Ectoplasm ,0003ad63 ,Restore Magicka ,0.1,25
+Elves Ear ,00034d31 ,Restore Magicka ,0.1,10
+Fire Salts ,0003ad5e ,Restore Magicka ,0.25,50
+Frost Salts ,0003ad5f ,Restore Magicka ,0.25,100
+Giant Lichen ,0007e8c1 ,Restore Magicka ,0.25,5
+Grass Pod ,00083e64 ,Restore Magicka ,0.1,1
+Human Flesh ,001016b3 ,Restore Magicka ,0.25,1
+Moon Sugar ,000d8e3f ,Restore Magicka ,0.25,50
+Mora Tapinella ,000ec870 ,Restore Magicka ,0.25,4
+Pearl ,000854fe ,Restore Magicka ,0.1,2
+Red Mountain Flower ,00077e1d ,Restore Magicka ,0.1,2
+Taproot ,0003ad71 ,Restore Magicka ,0.5,15
+Vampire Dust ,0003ad76 ,Restore Magicka ,0.2,25
+White Cap ,0004da22 ,Restore Magicka ,0.3,0
+Bear Claws ,0006bc02 ,Restore Stamina ,0.1,2
+Bee ,000a9195 ,Restore Stamina ,0.1,3
+Charred Skeever Hide ,00052695 ,Restore Stamina ,0.5,1
+Eye of Sabre Cat ,0006bc07 ,Restore Stamina ,0.1,2
+Hawk Beak ,000e7ebc ,Restore Stamina ,0.25,15
+Histcarp ,00106e18 ,Restore Stamina ,0.25,6
+Honeycomb ,000b08c5 ,Restore Stamina ,1,5
+Large Antlers ,0006bc0a ,Restore Stamina ,0.1,2
+Mudcrab Chitin ,0006bc00 ,Restore Stamina ,0.25,2
+Orange Dartwing ,000bb956 ,Restore Stamina ,0.1,1
+Pearl ,000854fe ,Restore Stamina ,0.1,2
+Pine Thrush Egg ,00023d6f ,Restore Stamina ,0.5,2
+Powdered Mammoth Tusk ,0006bc10 ,Restore Stamina ,0.1,2
+Purple Mountain Flower ,00077e1e ,Restore Stamina ,0.1,2
+Sabre Cat Tooth ,0006bc04 ,Restore Stamina ,0.1,2
+Silverside Perch ,00106e1c ,Restore Stamina ,0.25,15
+Small Pearl ,00085500 ,Restore Stamina ,0.1,2
+Torchbug Thorax ,0004da73 ,Restore Stamina ,0.1,1
+Wisp Wrappings ,0006bc0e ,Restore Stamina ,0.1,2
+Deathbell ,000516c8 ,Slow ,0.1,4
+Large Antlers ,0006bc0a ,Slow ,0.1,2
+River Betty ,00106e1a ,Slow ,0.25,15
+Salt Pile ,00074a19 ,Slow ,0.2,1
+Chicken's Egg ,00023d77 ,Waterbreathing ,0.5,2
+Histcarp ,00106e18 ,Waterbreathing ,0.25,6
+Nordic Barnacle ,0007edf5 ,Waterbreathing ,0.2,5
+Bleeding Crown ,0004da20 ,Weakness to Fire ,0.3,10
+Frost Salts ,0003ad5f ,Weakness to Fire ,0.25,100
+Ice Wraith Teeth ,0003ad6a ,Weakness to Fire ,0.25,30
+Juniper Berries ,0005076e ,Weakness to Fire ,0.1,1
+Moon Sugar ,000d8e3f ,Weakness to Fire ,0.25,50
+Powdered Mammoth Tusk ,0006bc10 ,Weakness to Fire ,0.1,2
+Abecean Longfin ,00106e1b ,Weakness to Frost ,0.5,15
+Elves Ear ,00034d31 ,Weakness to Frost ,0.1,10
+Fire Salts ,0003ad5e ,Weakness to Frost ,0.25,50
+Ice Wraith Teeth ,0003ad6a ,Weakness to Frost ,0.25,30
+White Cap ,0004da22 ,Weakness to Frost ,0.3,0
+Creep Cluster ,000b2183 ,Weakness to Magic ,0.2,1
+Dwarven Oil ,000f11c0 ,Weakness to Magic ,0.25,15
+Jazbay Grapes ,0006ac4a ,Weakness to Magic ,0.2,1
+Rock Warbler Egg ,0007e8c8 ,Weakness to Magic ,0.5,2
+Salt Pile ,00074a19 ,Weakness to Magic ,0.2,1
+Scaly Pholiota ,0006f950 ,Weakness to Magic ,0.25,4
+Taproot ,0003ad71 ,Weakness to Magic ,0.5,15
+Torchbug Thorax ,0004da73 ,Weakness to Magic ,0.1,1
+Abecean Longfin ,00106e1b ,Weakness to Poison ,0.5,15
+Bleeding Crown ,0004da20 ,Weakness to Poison ,0.3,10
+Chaurus Eggs ,0003ad56 ,Weakness to Poison ,0.2,10
+Deathbell ,000516c8 ,Weakness to Poison ,0.1,4
+Giant Lichen ,0007e8c1 ,Weakness to Poison ,0.25,5
+Pine Thrush Egg ,00023d6f ,Weakness to Poison ,0.5,2
+Sabre Cat Tooth ,0006bc04 ,Weakness to Poison ,0.1,2
+Small Antlers ,0006bc0b ,Weakness to Poison ,0.1,2
+Bee ,000a9195 ,Weakness to Shock ,0.1,3
+Giant Lichen ,0007e8c1 ,Weakness to Shock ,0.25,5
+Hagraven Feathers ,0003ad66 ,Weakness to Shock ,0.1,20
+Void Salts ,0003ad60 ,Weakness to Shock ,0.2,125
