@@ -1,12 +1,25 @@
 import csv
 
 # initializes db from csv
-def create_db():
+def create_ingredients_db():
     raw = []
-    f = open('si.csv', newline='')
+    f = open('Ingredients.csv', newline='')
     for row in f:
-        raw.append([x for x in row.rstrip().split(',')])
-    db = {row[0].strip(): [row[1].strip(), row[2].strip(),row[3].strip(), row[4].strip()] for row in raw}
+        raw.append([x.strip() for x in row.rstrip().split(',')])
+    db = {row[0]: [row[1], row[2],row[3], row[4]] for row in raw}
+    f.close()
+    return db
+
+def create_effects_db():
+    raw = []
+    f = open('Effects.csv', newline='')
+    for row in f:
+        raw.append([x.strip() for x in row.rstrip().split(',')])
+    f.close()
+    effects = {x[1] for x in raw}
+    db = {e: [] for e in effects}
+    for row in raw:
+        db[row[1]].append(row[0])
     return db
 
 def choose_first(db, ingredients):
@@ -148,7 +161,8 @@ def search(db):
     pass
 
 def main():
-    db = create_db()
+    ingred_db = create_ingredients_db()
+    eff_db = create_effects_db()
     menu_options = ["Make Potion by Ingredient", "Search by effect", "Quit"]
     print("Welcome to the Skyrim Alchemy helper")
     while(True):
