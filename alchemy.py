@@ -170,9 +170,9 @@ def main():
             print(str(i) + ": " + menu_options[i-1])
         choice = int(input("Enter your selection: "))
         if choice == 1:
-            create_pot(db)
+            create_pot(ingred_db)
         elif choice == 2:
-            search(db)
+            search(ingred_db)
         elif choice == 3:
             break
         else:
