@@ -84,7 +84,7 @@ def create_pot(reagents_db, effects_db):
     # add effects
     effects += list(set(reagents_db[reagents[0]]) & set(reagents_db[reagents[1]]))
     print_potion(reagents, effects)
-    if input('Add third ingredient [y/n]: ') == 'n':
+    if input('Add third ingredient [Y/n]: ') == 'n':
         return
     for r in reagents:
         for eff in reagents_db[r]:
@@ -111,9 +111,25 @@ def create_pot(reagents_db, effects_db):
     print_potion(reagents, effects)
     print()
     input('Press any key to continue')
-    
-def search(reagents_db, effects_db):
-    pass
+
+def search_effect(reagents_db, effects_db):
+    while True:
+        eff = input("Enter an effect or 'list' to see all available effects: ")
+        if eff.lower() == 'list':
+            i = 0
+            for e in effects_db:
+                print(str(i) + ": " + e)
+                i += 1
+        elif eff in effects_db.keys():
+            for e in effects_db[eff]:
+                print(e)
+            print()
+            if input("Search another effect? [Y/n]: ") == 'n':
+                return
+        elif eff == 'exit' or eff == 'quit':
+            return
+        else:
+            print('Invalid Input')
 
 def main():
     reagents = create_reagents_db()
@@ -127,7 +143,7 @@ def main():
         if choice == 1:
             create_pot(reagents, effects)
         elif choice == 2:
-            search(reagents, effects)
+            search_effect(reagents, effects)
         elif choice == 3:
             break
         elif choice == 4:
