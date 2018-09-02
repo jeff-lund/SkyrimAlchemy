@@ -30,19 +30,27 @@ def create_effects_db():
         db[row[1]].append(row[0])
     return db
 # END database creation
+
 def print_potion(reagents, effects):
+    '''
+    Pretty print for potions
+    '''
+    print()
     print('Current Potion')
-    print(reagents)
-    print(effects)
+    print('----------------------------------------------------')
+    print(', '.join(reagents))
+    print(', '.join(effects))
     print()
 
 def get_input(reagents_db):
     while True:
-        reagent = input('Enter a reagent or type a letter to filter list: ')
+        reagent = input("Enter a reagent, enter 'list' to see all available ingredients, or type a letter to filter list: ")
         reagent = reagent.lower()
-        if reagent in reagents_db.keys():
+        if reagent == 'list':
+
+        elif reagent in reagents_db.keys():
             return reagent
-        elif len(reagent) == 1:
+        elif len(reagent) == 1 and reagent.isalpha():
             for r in reagents_db:
                 if r[0] == reagent:
                     print(r)
@@ -51,9 +59,11 @@ def get_input(reagents_db):
         else:
             print('Invalid entry: {}'.format(reagent))
 
-def create_pot(reagents_db, effects_db):
+def create_potion(effects_db):
     '''
-    Creates a new potion from reagents.
+    Creates a new potion from reagents. After the first addition prints out
+    which effects can be achieved in the potion and prints out which reagents
+    will add that effect.
     '''
     reagents = []
     effects = []
@@ -81,9 +91,9 @@ def create_pot(reagents_db, effects_db):
     if second == 'exit':
         return
     reagents.append(second)
-    # add effects
     effects += list(set(reagents_db[reagents[0]]) & set(reagents_db[reagents[1]]))
     print_potion(reagents, effects)
+    # adding third reagent, optional, defaults to yes
     if input('Add third ingredient [Y/n]: ') == 'n':
         return
     for r in reagents:
@@ -113,6 +123,9 @@ def create_pot(reagents_db, effects_db):
     input('Press any key to continue')
 
 def search_effect(reagents_db, effects_db):
+    '''
+    Prints the reagents that have a given effect
+    '''
     while True:
         eff = input("Enter an effect or 'list' to see all available effects: ")
         if eff.lower() == 'list':
@@ -134,26 +147,18 @@ def search_effect(reagents_db, effects_db):
 def main():
     reagents = create_reagents_db()
     effects = create_effects_db()
-    menu_options = ["Make Potion by Ingredient", "Search by effect", "Quit"]
+    menu_options = ["Make Potion by Ingredient", "Search effects", "Quit"]
     print("Welcome to the Skyrim Alchemy helper")
     while(True):
         for i in range(1, 4):
             print(str(i) + ": " + menu_options[i-1])
         choice = int(input("Enter your selection: "))
         if choice == 1:
-            create_pot(reagents, effects)
+            create_potion(reagents, effects)
         elif choice == 2:
-            search_effect(reagents, effects)
+            search_effect(effects)
         elif choice == 3:
             break
-        elif choice == 4:
-            for r in reagents:
-                print(r + ":", end=' ')
-                print(reagents[r])
-        elif choice == 5:
-            for e in effects:
-                print(e + ":", end=' ')
-                print(effects[e])
         else:
             print("Invalid Input")
 
