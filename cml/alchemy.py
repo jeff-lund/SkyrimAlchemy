@@ -47,7 +47,8 @@ def get_input(reagents_db):
         reagent = input("Enter a reagent, enter 'list' to see all available ingredients, or type a letter to filter list: ")
         reagent = reagent.lower()
         if reagent == 'list':
-
+            for r in reagents_db:
+                print(r)
         elif reagent in reagents_db.keys():
             return reagent
         elif len(reagent) == 1 and reagent.isalpha():
@@ -59,7 +60,7 @@ def get_input(reagents_db):
         else:
             print('Invalid entry: {}'.format(reagent))
 
-def create_potion(effects_db):
+def create_potion(reagents_db, effects_db):
     '''
     Creates a new potion from reagents. After the first addition prints out
     which effects can be achieved in the potion and prints out which reagents
@@ -122,7 +123,7 @@ def create_potion(effects_db):
     print()
     input('Press any key to continue')
 
-def search_effect(reagents_db, effects_db):
+def search_effect(effects_db):
     '''
     Prints the reagents that have a given effect
     '''
