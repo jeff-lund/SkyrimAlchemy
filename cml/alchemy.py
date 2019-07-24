@@ -7,11 +7,13 @@ def create_reagents_db():
     :return Dictionary {reagent: [effects]}
     '''
     raw = []
-    f = open('Ingredients.csv', newline='')
-    for row in f:
-        raw.append([x.strip().lower() for x in row.rstrip().split(',')])
+    with open('Ingredients.csv', newline='') as f:
+        for row in f:
+            row = row.rstrip().split(',')
+            for item in row:
+                item = item.strip().lower()
+            raw.append(item)
     db = {row[0]: [row[1], row[2],row[3], row[4]] for row in raw}
-    f.close()
     return db
 
 def create_effects_db():
@@ -20,10 +22,9 @@ def create_effects_db():
     :return Dictionary {effect: [reagents]}
     '''
     raw = []
-    f = open('Effects.csv', newline='')
-    for row in f:
-        raw.append([x.strip().lower() for x in row.rstrip().split(',')])
-    f.close()
+    with open('Effects.csv', newline='') as f:
+        for row in f:
+            raw.append([x.strip().lower() for x in row.rstrip().split(',')])
     effects = {x[1] for x in raw}
     db = {e: [] for e in effects}
     for row in raw:
