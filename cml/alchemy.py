@@ -9,7 +9,9 @@ def create_reagents_db():
     raw = []
     f = open('Ingredients.csv', newline='')
     for row in f:
-        raw.append([x.strip().lower() for x in row.rstrip().split(',')])
+        print(row)
+        raw.append([x.strip() for x in row.rstrip().split(',')])
+        raw[-1] = raw[-1].lower()
     db = {row[0]: [row[1], row[2],row[3], row[4]] for row in raw}
     f.close()
     return db
